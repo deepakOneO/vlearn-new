@@ -2507,7 +2507,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #FFD4E8 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2704,7 +2704,7 @@ input, select, textarea {
 			flex-direction: row-reverse;
 		}
 
-		.spotlight:nth-child(1) {
+		/* .spotlight:nth-child(1) {
 			background-color: rgba(0, 0, 0, 0.075);
 		}
 
@@ -2742,7 +2742,7 @@ input, select, textarea {
 
 		.spotlight:nth-child(10) {
 			background-color: rgba(0, 0, 0, 0.75);
-		}
+		} */
 
 		@media screen and (max-width: 1280px) {
 
@@ -2819,8 +2819,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #2e3842;
+    		opacity: 0.93;
+			color: #ffffff;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2848,11 +2849,11 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
-				border-color: rgba(0, 0, 0, 0.125);
+				/* border-color: rgba(0, 0, 0, 0.125); */
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
@@ -2979,6 +2980,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #2e3842;
+			margin:2em;
 		}
 
 		.wrapper.style3 {
