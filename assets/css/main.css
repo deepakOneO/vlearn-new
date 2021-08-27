@@ -3476,6 +3476,9 @@ input, select, textarea {
 				display: block;
 				height: inherit;
 				line-height: inherit;
+				font-size: 16px;
+				font-family: helvetica;
+				font-weight: 700;
 			}
 
 				@media screen and (max-width: 736px) {
@@ -3635,6 +3638,7 @@ input, select, textarea {
 		#banner p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
+			color: #fff;
 		}
 
 			#banner p a {
@@ -4003,3 +4007,13 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+a.more.scrolly{
+	color: #fff !important;
+	text-decoration: none;
+}
+#header h1 a:hover {
+    color: #fff !important;
+}
+.spotlight p {
+    color: #fff;
+}
